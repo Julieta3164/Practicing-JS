@@ -21,3 +21,15 @@ if(pc == 1){
 } else if(pc == 3){
     alert("PC elige ✂️ ")
 } 
+//COMBATE
+if(pc == jugador){
+    alert("Empate")
+}else if(jugador ==1 && pc == 3){
+    alert("Ganaste")
+}else if(jugador == 2 && pc== 1){
+    alert("Ganastes")}
+else if(jugador == 3 && pc== 1){
+    alert("Ganastes")
+} else {
+    alert("Perdiste")
+}
