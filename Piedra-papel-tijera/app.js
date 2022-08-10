@@ -1,7 +1,9 @@
 //1 es piedra, 2 es papel, 3 es tijera 
-
+function aleatorio(min, max){
+    return Math.floor(Math.random() * (max - min +1) + min)
+}
 let jugador = 0
-let pc = 2
+let pc = aleatorio(1,3)
 jugador = prompt("Elige:1 para piedra, 2 para pepele, 3 para tijera")
 //alert("Elegistes " + jugador)
 if(jugador == 1){
